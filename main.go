@@ -7,7 +7,7 @@ import (
 func main() {
 	var kelvin float64
 	fmt.Print("Digite a temperatura em Kelvin: ")
-	fmt.Scanf("%f", &kelvin)
+	_, _ = fmt.Scanf("%f", &kelvin)
 
 	celsius := kelvinParaCelsius(kelvin)
 	fmt.Printf("A temperatura em Celsius é: %.2f\n", celsius)
